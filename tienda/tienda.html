@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="C:\Users\juana manso\Desktop\Integrador\tienda\styles.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="C:\Users\juana manso\Desktop\Integrador\index.html">All Jeans</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">All Jeans</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="C:\Users\juana manso\Desktop\Integrador\tienda\talles\prod.html">Lista de Talles</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Productos
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#pantalones">Pantalones</a></li>
+                    <li><a class="dropdown-item" href="#jardineras">Jardineras</a></li>
+                    <li><a class="dropdown-item" href="#camperas">Camperas</a></li>
+                    <li><a class="dropdown-item" href="#gorras">Gorras</a></li>
+                    <li><a class="dropdown-item" href="#polleras">Polleras</a></li>
+                    <li><a class="dropdown-item" href="#mochilas">Mochilas</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- slider -->
+      <section class="slider" style="margin-top: 55px;">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="C:\Users\juana manso\Desktop\Integrador\imagenes\imagenes tienda\modelos-usando-jardineras-de-jean-de-color-azul-co-upscaled.png" class="d-block w-100" alt="...">
+              </div>
+              
+              <div class="carousel-item">
+                <img src="C:\Users\juana manso\Desktop\Integrador\imagenes\imagenes tienda\modelos-usando-gorras-de-jean-de-color-azul-con-un-upscaled.png" class="d-block w-100" alt="...">
+              </div>
+              
+              <div class="carousel-item">
+                <img src="C:\Users\juana manso\Desktop\Integrador\imagenes\imagenes tienda\modelos-usando-polleras-de-jean-de-color-azul-con-upscaled.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="C:\Users\juana manso\Desktop\Integrador\imagenes\imagenes tienda\campera2.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+    <!-- seccion ropa -->
+        
+      <section>
+        <div class="container py-5">
+          <h1 class="text-center">Nuestros Mejores Productos</h1>
+          <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+  
+              <div class="col">
+                  <div class="card">
+                      <img src="C:\Users\juana manso\Desktop\Integrador\imagenes\imagenes tienda\productos\tienda 1.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Pantalon de Jean</h5>
+                          <p class="card-text">Pantalon de Jean de color negro, elastizado con doble costura de color dorado y botones metalicos color cobre. </p>
+                      </div>
+                      <div class="mb-5 d-flex justify-content-around">
+                          <h3>190$</h3>
+                          <button class="btn btn-primary">Comprar</button>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="col">
+                  <div class="card">
+                      <img src="C:\Users\juana manso\Desktop\Integrador\imagenes\imagenes tienda\productos\tienda 2.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Campera de Jean</h5>
+                          <p class="card-text">Campera de Jean de color azul oscuro, con botones de color cobre y doble costura,
+                            cuenta con 5 bolsillos.
+                          </p>
+                      </div>
+                      <div class="mb-5 d-flex justify-content-around">
+                          <h3>190$</h3>
+                          <button class="btn btn-primary">Comprar</button>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="col">
+                  <div class="card">
+                      <img src="C:\Users\juana manso\Desktop\Integrador\imagenes\imagenes tienda\productos\tienda 3.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Mochila de Jean</h5>
+                          <p class="card-text">Mochila de Jean de color azul oscuro, con detalles de cuero y costura de color cobre, cuenta con una capacidad de 20 litros.</p>
+                      </div>
+                      <div class="mb-5 d-flex justify-content-around">
+                          <h3>190$</h3>
+                          <button class="btn btn-primary">Comprar</button>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="col">
+                  <div class="card">
+                      <img src="C:\Users\juana manso\Desktop\Integrador\imagenes\imagenes tienda\productos\tienda 4.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Gorra de Jean</h5>
+                          <p class="card-text">Gorra de Jean plana de color negro, con doble costura dorada, posee abrojos para ajustarla.</p>
+                      </div>
+                      <div class="mb-5 d-flex justify-content-around">
+                          <h3>190$</h3>
+                          <button class="btn btn-primary">Comprar</button>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="col">
+                  <div class="card">
+                      <img src="C:\Users\juana manso\Desktop\Integrador\imagenes\imagenes tienda\productos\tienda 5.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Mochila de Jean de Viaje</h5>
+                          <p class="card-text">Mochila de Jean de color negro, posee una capacidad de 30 litros y compartimiento para notebooks.</p>
+                      </div>
+                      <div class="mb-5 d-flex justify-content-around">
+                          <h3>190$</h3>
+                          <button class="btn btn-primary">Comprar</button>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="col">
+                  <div class="card">
+                      <img src="C:\Users\juana manso\Desktop\Integrador\imagenes\imagenes tienda\productos\tienda 7.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Campera de Jean Black</h5>
+                          <p class="card-text">Campera de Jean de color negro, con botones plateados, posee 5 bolsillos y doble costura de color blanco.</p>
+                      </div>
+                      <div class="mb-5 d-flex justify-content-around">
+                          <h3>190$</h3>
+                          <button class="btn btn-primary">Comprar</button>
+                      </div>
+                  </div>
+              </div>
+  
+  
+          </div>
+      </div>
+      </section>
+      <!-- productos particulares -->
+      <!-- pantalones -->
+      <section id="pantalones">
+        <div class="container py-5">
+          <h1 class="text-center">Pantalones</h1>
+          <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+  
+              <div class="col">
+                  <div class="card">
+                      <img src="C:\Users\juana manso\Desktop\Integrador\imagenes\imagenes tienda\productos\tienda 1.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Pantalon de Jean Negro</h5>
+                          <p class="card-text">Pantalon de Jean de color negro, elastizado con doble costura de color dorado y botones metalicos color cobre. </p>
+                      </div>
+                      <div class="mb-5 d-flex justify-content-around">
+                          <h3>190$</h3>
+                          <button class="btn btn-primary">Comprar</button>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="col">
+                  <div class="card">
+                      <img src="C:\Users\juana manso\Desktop\Integrador\imagenes\imagenes tienda\productos\pantalon con diseño.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Pantalon corto</h5>
+                          <p class="card-text">Pantalon corto de jean, de color azul claro con diseño, perfecto para adultos y adolescentes.</p>
+                      </div>
+                      <div class="mb-5 d-flex justify-content-around">
+                          <h3>190$</h3>
+                          <button class="btn btn-primary">Buy Now</button>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="col">
+                  <div class="card">
+                      <img src="C:\Users\juana manso\Desktop\Integrador\imagenes\imagenes tienda\productos\pantalon azul oscuro.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Jean Classic</h5>
+                          <p class="card-text">Pantalon de jean clasico, corte clasico de color azul oscuro, con doble costura ,ideal para adultos, </p>
+                      </div>
+                      <div class="mb-5 d-flex justify-content-around">
+                          <h3>190$</h3>
+                          <button class="btn btn-primary">Buy Now</button>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <!-- jardineras -->
+      <section id="jardineras">
+        <div class="container py-5">
+          <h1 class="text-center">Jardineras</h1>
+          <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+  
+              <div class="col">
+                  <div class="card">
+                      <img src="C:\Users\juana manso\Desktop\Integrador\imagenes\imagenes tienda\productos\jardinera azul oscuro.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Jardinera Kids</h5>
+                          <p class="card-text">Jardinera para niños de 1 a 3 años, jardinera de color azul, con 6 bolsillos y abrojos metalicos. </p>
+                      </div>
+                      <div class="mb-5 d-flex justify-content-around">
+                          <h3>190$</h3>
+                          <button class="btn btn-primary">Comprar</button>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="col">
+                  <div class="card">
+                      <img src="C:\Users\juana manso\Desktop\Integrador\imagenes\jardineras.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Jardinera </h5>
+                          <p class="card-text">Jardinera de jean elastizada para adultos, con abrojos y botones metalicos de color plateados, con doble costura color cobre.
+                          </p>
+                      </div>
+                      <div class="mb-5 d-flex justify-content-around">
+                          <h3>190$</h3>
+                          <button class="btn btn-primary">Buy Now</button>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="col">
+                  <div class="card">
+                      <img src="C:\Users\juana manso\Desktop\Integrador\imagenes\imagenes tienda\productos\jardinera negra.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Jardinera Black</h5>
+                          <p class="card-text">Jardinera de Jean de color negro, con doble costura y abrojos de colores dorados, cuenta con 5 bolsillos.</p>
+                      </div>
+                      <div class="mb-5 d-flex justify-content-around">
+                          <h3>190$</h3>
+                          <button class="btn btn-primary">Buy Now</button>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <!-- camperas -->
+      <section id="camperas">
+        <div class="container py-5">
+          <h1 class="text-center">Camperas</h1>
+          <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+  
+              <div class="col">
+                  <div class="card">
+                      <img src="C:\Users\juana manso\Desktop\Integrador\imagenes\imagenes tienda\productos\tienda 7.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Campera de Jean Black</h5>
+                          <p class="card-text">Campera de Jean de color negro, con botones plateados, posee 5 bolsillos y doble costura de color blanco. </p>
+                      </div>
+                      <div class="mb-5 d-flex justify-content-around">
+                          <h3>190$</h3>
+                          <button class="btn btn-primary">Comprar</button>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="col">
+                  <div class="card">
+                      <img src="C:\Users\juana manso\Desktop\Integrador\imagenes\imagenes tienda\productos\tienda 2.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Campera de Jean</h5>
+                          <p class="card-text">Campera de Jean de color azul oscuro, con botones de color cobre y doble costura, cuenta con 5 bolsillos.</p>
+                      </div>
+                      <div class="mb-5 d-flex justify-content-around">
+                          <h3>190$</h3>
+                          <button class="btn btn-primary">Comprar</button>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="col">
+                  <div class="card">
+                      <img src="C:\Users\juana manso\Desktop\Integrador\imagenes\campera.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Campera Clasica</h5>
+                          <p class="card-text">Campera de Jean de color azul claro, con un estilo clasico y botones de color cobre y doble costura, cuenta con 5 bolsillos.</p>
+                      </div>
+                      <div class="mb-5 d-flex justify-content-around">
+                          <h3>190$</h3>
+                          <button class="btn btn-primary">comprar</button>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <!-- gorras -->
+      <section id="gorras">
+        <div class="container py-5">
+          <h1 class="text-center">Gorras</h1>
+          <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+  
+              <div class="col">
+                  <div class="card">
+                      <img src="C:\Users\juana manso\Desktop\Integrador\imagenes\imagenes tienda\productos\gorra azul.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Gorra Clasica</h5>
+                          <p class="card-text">Gorra de Jean semiplana de color azul, con doble costura dorada, posee abrojos para ajustarla.</p>
+                      </div>
+                      <div class="mb-5 d-flex justify-content-around">
+                          <h3>190$</h3>
+                          <button class="btn btn-primary">Comprar</button>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="col">
+                  <div class="card">
+                      <img src="C:\Users\juana manso\Desktop\Integrador\imagenes\imagenes tienda\productos\tienda 4.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Gorra Black</h5>
+                          <p class="card-text">Gorra de Jean plana de color negro, con doble costura dorada, posee abrojos para ajustarla</p>
+                      </div>
+                      <div class="mb-5 d-flex justify-content-around">
+                          <h3>190$</h3>
+                          <button class="btn btn-primary">Comprar</button>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="col">
+                  <div class="card">
+                      <img src="C:\Users\juana manso\Desktop\Integrador\imagenes\gorras.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Gorra con Cuero</h5>
+                          <p class="card-text">Gorra de Jean semiplana de color azul claro, con doble costura dorada y detalles de cuero, posee abrojos para ajustarla.</p>
+                      </div>
+                      <div class="mb-5 d-flex justify-content-around">
+                          <h3>190$</h3>
+                          <button class="btn btn-primary">Comprar</button>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <!-- Polleras -->
+      <section id="polleras">
+        <div class="container py-5">
+          <h1 class="text-center">Polleras</h1>
+          <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+  
+              <div class="col">
+                  <div class="card">
+                      <img src="C:\Users\juana manso\Desktop\Integrador\imagenes\imagenes tienda\productos\pollera negra.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Pollera Black</h5>
+                          <p class="card-text">Pollera de color negro con doble costura y botones de colores dorados, posee 2 bolsillos.</p>
+                      </div>
+                      <div class="mb-5 d-flex justify-content-around">
+                          <h3>190$</h3>
+                          <button class="btn btn-primary">Comprar</button>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="col">
+                  <div class="card">
+                      <img src="C:\Users\juana manso\Desktop\Integrador\imagenes\imagenes tienda\productos\pollera blanca.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Pollera White</h5>
+                          <p class="card-text">Pollera de color blanca con doble costura y botones de colores plateados, posee 2 bolsillos.</p>
+                      </div>
+                      <div class="mb-5 d-flex justify-content-around">
+                          <h3>190$</h3>
+                          <button class="btn btn-primary">Comprar</button>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="col">
+                  <div class="card">
+                      <img src="C:\Users\juana manso\Desktop\Integrador\imagenes\polleras.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Pollera Clasica</h5>
+                          <p class="card-text">Pollera de color azul claro, con doble costura y botones de color dorado, posee 4 bolsillos.</p>
+                      </div>
+                      <div class="mb-5 d-flex justify-content-around">
+                          <h3>190$</h3>
+                          <button class="btn btn-primary">Comprar</button>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <!-- mochilas -->
+      <section id="mochilas">
+        <div class="container py-5">
+          <h1 class="text-center">mochilas</h1>
+          <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+  
+              <div class="col">
+                  <div class="card">
+                      <img src="C:\Users\juana manso\Desktop\Integrador\imagenes\imagenes tienda\productos\mochila 2 bolsillos.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Mochila Indie</h5>
+                          <p class="card-text">Mochila de color azul claro con detalles de cuero, posee dos bolsillos y una capacidad de 20 litros. </p>
+                      </div>
+                      <div class="mb-5 d-flex justify-content-around">
+                          <h3>190$</h3>
+                          <button class="btn btn-primary">Comprar</button>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="col">
+                  <div class="card">
+                      <img src="C:\Users\juana manso\Desktop\Integrador\imagenes\imagenes tienda\productos\tienda 3.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Mochila de Jean</h5>
+                          <p class="card-text">Mochila de Jean de color azul oscuro, con detalles de cuero y costura de color cobre, cuenta con una capacidad de 20 litros.</p>
+                      </div>
+                      <div class="mb-5 d-flex justify-content-around">
+                          <h3>190$</h3>
+                          <button class="btn btn-primary">Comprar</button>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="col">
+                  <div class="card">
+                      <img src="C:\Users\juana manso\Desktop\Integrador\imagenes\mochilas.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Mochila Clasica</h5>
+                          <p class="card-text">Mochila de Jean de color azul claro, con 5 bolsillos, ideal para ir al colegio, posee una capacidad de 30 litros.</p>
+                      </div>
+                      <div class="mb-5 d-flex justify-content-around">
+                          <h3>190$</h3>
+                          <button class="btn btn-primary">Comprar</button>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <!-- Footer-->
+      <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Location-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Ubicacion</h4>
+                    <p class="lead mb-0">
+                        2215 John Daniel Drive
+                        <br />
+                        Clark, MO 65243
+                    </p>
+                </div>
+                <!-- Footer Social Icons-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Mis redes</h4>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><img src="C:\Users\juana manso\Desktop\Integrador\iconos\whatsapp (1).png" alt=""></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><img src="C:\Users\juana manso\Desktop\Integrador\iconos\facebook (2).png" alt=""></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><img src="C:\Users\juana manso\Desktop\Integrador\iconos\linkedin (1).png" alt=""></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><img src="C:\Users\juana manso\Desktop\Integrador\iconos\gorjeo.png" alt=""></a>
+                </div>
+                <!-- Footer About Text-->
+                <div class="col-lg-4">
+                    <h4 class="text-uppercase mb-4">Formas de pago</h4>
+                    <p class="lead mb-0">
+                        Recibimos todas las tarjetas y transferencias bancarias. 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="copyright py-4 text-center ">
+            <div class="container"><small>Copyright &copy; Your Website 2023</small></div>
+        </div>
+      
+    </footer>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>

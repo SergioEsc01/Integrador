@@ -1,0 +1,29 @@
+.footer{
+    background-color: rgb(255, 255, 255);
+}
+.footer h4{
+    margin: 20px 0px;
+}
+.copyright{
+    background-color: rgb(255, 255, 255);    
+}
+.container small{
+    color: black;
+}
+.titulo{
+    padding-top: 45px;
+    text-align: center;
+}
+.tit-ropa{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.container-img {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

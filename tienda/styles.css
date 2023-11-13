@@ -1,0 +1,47 @@
+
+.footer{
+    background-color: rgb(255, 255, 255);
+}
+.footer h4{
+    margin: 20px 0px;
+}
+.copyright{
+    background-color: rgb(255, 255, 255);    
+}
+.container small{
+    color: black;
+}
+.container.py-5 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+.row.row-cols-1.row-cols-md-3.g-4.py-5 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .text-center{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+.card-img-top{
+    padding: 0px;
+}
+.card{
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+.card-body{
+    padding: 25px;
+    margin-top: -15px;
+}
+.btn-primary{
+    border-radius: 50px;
+    width: 120px;
+}
+.btn-primary:hover{
+    background-color: black;
+    border: none;
+}
+h3,h5{
+    color: rgb(0, 91, 228);
+}

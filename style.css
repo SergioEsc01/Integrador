@@ -1,0 +1,87 @@
+
+body {
+    margin: 0;
+  }     
+  .hero {
+      display: flex;
+      flex-direction: column;
+      background-image: url("imagenes/hero2.avif");
+      height: 100vh;
+      align-self: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+      align-items: center;
+      justify-content: center;
+  }
+        
+  .text {
+      font-size: 1.4rem;
+      text-align: center;
+      color: rgb(255, 255, 255);
+      
+  }
+
+.page-section-heading{
+    margin: 20px 0px;
+}
+.row{
+    margin: 20px 0px;
+}
+  .portfolio-item .hover-text {
+      display: none; /* Inicialmente, oculta el texto */
+  }
+
+  .portfolio-item:hover .hover-text {
+      display: block; /* Muestra el texto cuando el mouse está encima */
+      font-size: 1rem; /* Puedes ajustar el tamaño del texto en hover */
+      color: rgb(0, 0, 0); /* Puedes ajustar el color del texto en hover */
+  }
+
+  .portfolio-item:hover {
+      /* Estilos para cuando el mouse está encima */
+      color: white;
+      transform: scale(1.05); /* Puedes ajustar el valor para cambiar el tamaño al hacer hover */
+      transition: transform 0.3s ease; /* Efecto de transición suave */
+  }
+
+  /* Estilos para el ícono de "fa-plus" en el hover */
+  .portfolio-item:hover .portfolio-item-caption-content {
+      font-size: 4rem; /* Cambia el tamaño del ícono en hover */
+  }
+  .video-container {
+    margin: 20px 0px;
+    position: relative;
+    padding-bottom: 56.25%; /* Establece la relación de aspecto 16:9 para el video (480 / 853 * 100%) */
+    overflow: hidden;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.footer{
+    background-color: rgb(255, 255, 255);
+}
+.footer h4{
+    margin: 20px 0px;
+}
+.copyright{
+    background-color: rgb(255, 255, 255);    
+}
+.container small{
+    color: black;
+}
+/* modal */
+.portfolio-modal .img-fluid {
+    margin-top: 30px; 
+}
+.modal-content .modal-body{
+    padding-top: 0px;
+}
+.modal-header{
+    padding-bottom: 0px;
+}
