@@ -22,6 +22,7 @@
   .text-center{
     padding-top: 15px;
     padding-bottom: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
   }
 .card-img-top{
     padding: 0px;
@@ -29,6 +30,12 @@
 .card{
     border-radius: 30px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+.card-title{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.card-text{
+    font-family: 'Times New Roman', Times, serif;
 }
 .card-body{
     padding: 25px;
@@ -44,4 +51,11 @@
 }
 h3,h5{
     color: rgb(0, 91, 228);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.text-uppercase{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.lead{
+    font-family: 'Times New Roman', Times, serif;
 }

@@ -21,7 +21,15 @@ body {
       color: rgb(255, 255, 255);
       
   }
-
+  .text h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  .text p{
+    font-family: 'Times New Roman', Times, serif;
+  }
+.page-section-heading{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
 .page-section-heading{
     margin: 20px 0px;
 }

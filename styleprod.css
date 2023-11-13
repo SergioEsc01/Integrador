@@ -13,11 +13,13 @@
 .titulo{
     padding-top: 45px;
     text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .tit-ropa{
     text-align: center;
     padding-top: 5px;
     padding-bottom: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .container-img {
     text-align: center;
@@ -26,4 +28,10 @@
 img {
     max-width: 100%;
     height: auto;
+}
+.text-uppercase{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.lead{
+    font-family: 'Times New Roman', Times, serif;
 }
